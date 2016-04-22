@@ -1,0 +1,17 @@
+package gennytest
+
+import (
+	"fmt"
+
+	"github.com/cheekybits/genny/generic"
+
+	testfoo "github.com/falun/genny-test/foo"
+)
+
+type _t_ generic.Type
+
+func main() {
+	var t _t_
+	fmt.Println(t)
+	fmt.Println(testfoo.Bar)
+}
